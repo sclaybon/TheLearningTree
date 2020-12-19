@@ -1,0 +1,44 @@
+
+.container {
+
+  height: 100vh;
+
+}
+
+.split-pane-profile{
+  height: 30%;
+  background-color:#5ddfc1;
+}
+
+.spacer {
+  height: 20px;
+}
+
+.profile-header-text {
+
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+
+}
+
+.profile-secondary-text {
+
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+
+}
+
+.parent {
+  position: relative;
+}
+
+.child {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.icon-style {
+  padding:10px;
+  font-size: 50px;
+}
