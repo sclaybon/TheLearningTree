@@ -3,49 +3,45 @@
     <ion-content fullscreen scroll-y="false">
       <ion-slides>
         <ion-slide>
-          <div class="slide">
-            <div class="container">
-              <div class="split-pane">
+            <ion-grid>
                 <ion-row>
                   <ion-col>
-                    <img [src]="'assets/trees.png'">
-                  </ion-col>  
+                    <img class="fullHeight" [src]="'assets/trees.png'">
+                  </ion-col>
                 </ion-row>
-              </div>
-              <div class="split-pane">
-                <span class="onboarding-header-text">Welcome To The Learning Tree</span> <br>
-                <div class="spacer"></div>
-                <span class="onboarding-secondary-text">Teaching The Next Generation of Leaders</span> <br>
-                <div class="spacer"></div>
-                <ion-button color="secondary" [routerLink]="['/sign-in']" expand="block" > Skip </ion-button>
-              </div>
-            </div>
-          </div> 
+                <ion-row>
+                  <ion-col>
+                    <span class="onboarding-header-text">Welcome To The Learning Tree</span> <br>
+                    <div class="spacer"></div>
+                    <span class="onboarding-secondary-text">Teaching The Next Generation of Leaders</span> <br>
+                    <div class="spacer"></div>
+                    <ion-button color="secondary" [routerLink]="['/sign-in']" expand="block" > Skip </ion-button>
+                  </ion-col>
+                </ion-row> 
+              </ion-grid>           
         </ion-slide>
 
         <ion-slide>
           <div class="slide">
-            <div class="container">
-              <div class="split-pane">
-                <ion-row>
-                  <ion-col>
-                    <img [src]="'assets/forest.png'">
-                  </ion-col>
-                </ion-row>
+                <ion-grid>
+                  <ion-row>
+                    <ion-col>
+                      <img class="fullHeight" [src]="'assets/forest.png'">
+                    </ion-col>
+                  </ion-row>
+                  <ion-row>
+                    <ion-col>
+                      <span class="onboarding-header-text" >Customized Learning</span> <br>
+                      <div class="spacer"></div>
+                      <span class="onboarding-secondary-text">The Ultimate ACT Training</span> <br>
+                      <span class="onboarding-secondary-text">K-12 Learning Inventory</span> <br>
+                      <span class="onboarding-secondary-text">Fast, Fun, and User-Friendly</span> <br>
+                      <div class="spacer"></div>
+                      <ion-button color="secondary" [routerLink]="['/sign-in']" expand="block" > Continue </ion-button>
+                    </ion-col>
+                  </ion-row> 
+                </ion-grid>            
               </div>
-              <div class="split-pane">
-                
-                <span class="onboarding-header-text" >Customized Learning</span> <br>
-                <div class="spacer"></div>
-                <span class="onboarding-secondary-text">The Ultimate ACT Training</span> <br>
-                <span class="onboarding-secondary-text">K-12 Learning Inventory</span> <br>
-                <span class="onboarding-secondary-text">Fast, Fun, and User-Friendly</span> <br>
-                <div class="spacer"></div>
-                <ion-button color="secondary" [routerLink]="['/sign-in']" expand="block" > Continue </ion-button>
-              </div>
-            </div>
-
-          </div>
         </ion-slide>
     </ion-slides>
     </ion-content>

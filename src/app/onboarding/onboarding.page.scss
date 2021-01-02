@@ -12,13 +12,6 @@
 
 }
 
-.container {
-
-    height: 100vh;
-    background: linear-gradient(to bottom, white, #5ddfc1) ;
-
-}
-
 .split-pane{
     padding: 5%;
     height: 50%;
@@ -28,3 +21,28 @@
 .spacer {
     height: 20px;
 }
+
+.center {
+    margin: 0 !important;
+}
+
+.fullHeight {
+    max-height:100% !important;
+    margin:0 !important;
+}
+
+ion-grid {
+    height: 100vh;
+    background: linear-gradient(to bottom, white, #5ddfc1) ;
+
+    ion-row {
+      height: 50%;
+      
+      ion-col {
+          height:100%;
+
+      }
+
+    }
+
+  }
