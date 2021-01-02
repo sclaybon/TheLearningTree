@@ -1,14 +1,5 @@
 {
-  "targets": {
-    "ionic5-firebase-authentication": {
-      "hosting": {
-        "app": [
-          "ionic5-firebase-authentication"
-        ]
-      }
-    }
-  },
   "projects": {
-    "demo": "ionic5-firebase-authentication"
+    "default": "thelearningtree"
   }
 }
