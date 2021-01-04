@@ -5,13 +5,12 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "AIzaSyCyHFKZfViflWVL25t7M9LoTsUSn8xCNJE",
-    authDomain: "thelearningtree-7e8a1.firebaseapp.com",
-    projectId: "thelearningtree-7e8a1",
-    storageBucket: "thelearningtree-7e8a1.appspot.com",
-    messagingSenderId: "344229452899",
-    appId: "1:344229452899:web:213b88e54bac853df06c56",
-    measurementId: "G-ENWV61F399"
+    apiKey: "AIzaSyAdFxGFsN9TZ85QH6771CyTrnx8VgK_cSY",
+    authDomain: "thelearningtree.firebaseapp.com",
+    projectId: "thelearningtree",
+    storageBucket: "thelearningtree.appspot.com",
+    messagingSenderId: "732978102810",
+    appId: "1:732978102810:web:55cc6240aa8cfe54e347a3"
   }
 };
 
