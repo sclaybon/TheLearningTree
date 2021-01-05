@@ -12,16 +12,15 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Install Node
-      - uses: actions/setup-node@v1
-          - with:
-              - node-version: 12.18.0
+        uses: actions/setup-node@v1
+        with:
+        node-version: 12.x
       - name: npm dependencies
-      - run: npm install 
+        run: npm install 
       - name: ng cli install
-      - run: npm install -g @angular/cli
+        run: npm install -g @angular/cli
       - name: angular build
-      - run: ng build
-      - run: ng build
+        run: ng build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
