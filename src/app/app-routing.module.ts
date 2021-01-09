@@ -26,6 +26,10 @@ const routes: Routes = [
   {
     path: 'avatar-modal',
     loadChildren: () => import('./avatar-modal/avatar-modal.module').then( m => m.AvatarModalPageModule)
+  },
+  {
+    path: 'avatar-selection',
+    loadChildren: () => import('./avatar-selection/avatar-selection.module').then( m => m.AvatarSelectionPageModule)
   }
 ];
 

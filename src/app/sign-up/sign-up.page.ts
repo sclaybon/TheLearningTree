@@ -47,7 +47,7 @@ export class SignUpPage {
     this.authRedirectResult = this.authService.getRedirectResult()
     .subscribe(result => {
       if (result.user) {
-        this.redirectLoggedUserToProfilePage();
+        this.redirectLoggedUserToAvatarSelectionPage();
       } else if (result.error) {
         this.submitError = result.error;
       }
@@ -55,20 +55,22 @@ export class SignUpPage {
   }
 
   // Once the auth provider finished the authentication flow, and the auth redirect completes,
-  // redirect the user to the profile page
-  redirectLoggedUserToProfilePage() {
+  // redirect the user to the avatar selection second phase onboarding page
+  redirectLoggedUserToAvatarSelectionPage() {
     // As we are calling the Angular router navigation inside a subscribe method, the navigation will be triggered outside Angular zone.
     // That's why we need to wrap the router navigation call inside an ngZone wrapper
     this.ngZone.run(() => {
-      this.router.navigate(['profile']);
+      this.router.navigate(['avatar-selection']);
     });
   }
 
   signUpWithEmail() {
     this.authService.signUpWithEmail(this.signUpForm.value['email'], this.signUpForm.value['password'])
     .then(user => {
-      // navigate to user profile
-      this.redirectLoggedUserToProfilePage();
+      
+      // navigate to avatar selection page upon account creation
+      this.redirectLoggedUserToAvatarSelectionPage();
+
     })
     .catch(error => {
       this.submitError = error.message;
@@ -84,7 +86,7 @@ export class SignUpPage {
       // This gives you a Facebook Access Token. You can use it to access the Facebook API.
       // const token = result.credential.accessToken;
       // The signed-in user info is in result.user;
-      this.redirectLoggedUserToProfilePage();
+      this.redirectLoggedUserToAvatarSelectionPage();
     }).catch((error) => {
       // Handle Errors here.
       console.log(error);
@@ -100,7 +102,7 @@ export class SignUpPage {
       // This gives you a Google Access Token. You can use it to access the Google API.
       // const token = result.credential.accessToken;
       // The signed-in user info is in result.user;
-      this.redirectLoggedUserToProfilePage();
+      this.redirectLoggedUserToAvatarSelectionPage();
     }).catch((error) => {
       // Handle Errors here.
       console.log(error);
@@ -116,7 +118,7 @@ export class SignUpPage {
       // This gives you a Twitter Access Token. You can use it to access the Twitter API.
       // const token = result.credential.accessToken;
       // The signed-in user info is in result.user;
-      this.redirectLoggedUserToProfilePage();
+      this.redirectLoggedUserToAvatarSelectionPage();
     }).catch((error) => {
       // Handle Errors here.
       console.log(error);
