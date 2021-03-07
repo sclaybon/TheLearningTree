@@ -3,17 +3,17 @@
 <ion-content>
 
   <div class="container">
-    <ion-card color="secondary">
+    <ion-card color="secondary" button (click)="onClick($event, 'boy-6')">
       <ion-row>
         <ion-col></ion-col>
         <ion-col size="3" class="parent">
-          <img class="child" [src]="'assets/avatars/boy-6.png'">
+          <img class="child" [src]="'assets/avatars/boy-6.png'" >
         </ion-col>
         <ion-col></ion-col>
       </ion-row>
       
     </ion-card>
-    <ion-card color="secondary">
+    <ion-card color="secondary" button (click)="onClick($event, 'boy-10')">
       <ion-row>
         <ion-col></ion-col>
         <ion-col size="3" class="parent">
@@ -24,7 +24,7 @@
       
     </ion-card>
 
-    <ion-card color="secondary">
+    <ion-card color="secondary" (click)="onClick($event, 'boy-11')">
       <ion-row>
         <ion-col></ion-col>
         <ion-col size="3" class="parent">
@@ -35,7 +35,7 @@
       
     </ion-card>
 
-    <ion-card color="secondary">
+    <ion-card color="secondary" (click)="onClick($event, 'boy-12')">
       <ion-row>
         <ion-col></ion-col>
         <ion-col size="3" class="parent">
@@ -46,7 +46,7 @@
       
     </ion-card>
 
-    <ion-card color="secondary">
+    <ion-card color="secondary" (click)="onClick($event, 'boy-13')">
       <ion-row>
         <ion-col></ion-col>
         <ion-col size="3" class="parent">
@@ -57,7 +57,7 @@
       
     </ion-card>
     
-    <ion-button color="secondary" [routerLink]="['/profile']" expand="block" > Finish </ion-button>
+    <ion-button color="secondary" [routerLink]="['/profile']" expand="block" [state]="{avatar: this.avatarSelection}"> Finish </ion-button>
 
   </div>
   

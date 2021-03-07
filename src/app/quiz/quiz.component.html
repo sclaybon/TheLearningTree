@@ -1,0 +1,42 @@
+<div *ngIf="isLoaded">
+<ion-header>
+  <ion-toolbar>
+    <ion-title color="primary" class="ion-text-center">
+      {{this.quizData.quiz}}
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<div *ngIf="this.quizIsActive">
+  <ion-list class="ion-text-center">
+    <ion-list-header>
+      <ion-label>
+        {{this.quizData.questions[this.currentQuestion].question}}
+      </ion-label>
+    </ion-list-header>
+
+    <ion-item  *ngFor="let answer of this.quizData.questions[this.currentQuestion].answers" button (click)="answerSelect($event, answer)" [class]="itemColor">
+      {{answer}}
+    </ion-item>
+  </ion-list>
+
+  <ion-button color="secondary" expand="block" (click)="nextButtonClick($event.target)">Next</ion-button>
+</div>
+<div *ngIf="!this.quizIsActive">
+  <ion-list>
+    <ion-list-header>
+      <ion-label>
+        Your Score: {{this.score}}%
+      </ion-label>
+    </ion-list-header>
+
+    <ion-item>
+      Number Correct: {{this.numberCorrect}}
+    </ion-item>
+    <ion-item>
+      Number Incorrect: {{this.numberWrong}}
+    </ion-item>
+  </ion-list>
+  <ion-button color="secondary" expand="block" [routerLink]="['/profile']" [state]="{assessmentComplete: true}">Back to Home Screen</ion-button>
+</div>
+</div>

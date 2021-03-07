@@ -1,0 +1,11 @@
+{
+	"quiz": "Quiz 2",
+	"quizId": "quiz2",
+	"questions": [{
+		"question": "What is 2+2?",
+		"answers": ["11", "4", "16", "12", "chicken"]
+	}, {
+		"question": "What is 2+4?",
+		"answers": ["1111", "444", "6", "121212", "cat"]
+	}]
+}

@@ -57,7 +57,7 @@
       <ion-row>
         <ion-col size="1"></ion-col>
         <ion-col size="3" class="parent">
-          <img class="child" (click)="openModal()" [src]="'assets/avatars/boy-10.png'">
+          <img class="child" (click)="openModal()" [src]=this.user.image>
         </ion-col>
         <ion-col size="1"></ion-col>
         <ion-col size="6">
@@ -67,20 +67,19 @@
       </ion-row>
     </div>
 
-    <ion-card>
-      <ion-row>
+    <ion-card button *ngFor="let quiz of this.quizList; first as isFirst" [routerLink]="['/quiz']" [state]="{quizName: quiz.id}">
+      <ion-row *ngIf="isFirst || assessmentComplete">
         <ion-col size="2" class="parent">
             <ion-icon class="child icon-style" color="medium" name="star"></ion-icon>
         </ion-col>
         <ion-col>
           <ion-card-content>
-            Take the greatness assessment to unlock your potential
+            {{quiz.name}}: {{quiz.description}}
           </ion-card-content>
         </ion-col>
       </ion-row>
-      
-    </ion-card>
-    
+
+    </ion-card>    
   </div>
   
 

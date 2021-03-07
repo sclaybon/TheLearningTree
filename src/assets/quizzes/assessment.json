@@ -1,0 +1,14 @@
+{
+	"quiz": "Greatness Assessment",
+	"quizId": "1234",
+	"questions": [{
+		"question": "What is 2+2?",
+		"answers": ["1", "4", "6", "12", "cat"]
+	}, {
+		"question": "What is 2+4?",
+		"answers": ["13", "45", "6", "32", "truck"]
+	}, {
+		"question": "Which is an animal?",
+		"answers": ["155", "4718", "house", "road", "cat"]
+	}]
+}

@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import { QuizComponent } from './quiz/quiz.component';
 
 const routes: Routes = [
   {
@@ -30,6 +31,9 @@ const routes: Routes = [
   {
     path: 'avatar-selection',
     loadChildren: () => import('./avatar-selection/avatar-selection.module').then( m => m.AvatarSelectionPageModule)
+  },
+  {
+    path: 'quiz', component: QuizComponent
   }
 ];
 

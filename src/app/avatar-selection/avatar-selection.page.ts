@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./avatar-selection.page.scss'],
 })
 export class AvatarSelectionPage implements OnInit {
+  
+  avatarSelection = "";
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
+  }
+
+  onClick(event, selection) {
+    this.avatarSelection = `assets/avatars/${selection}.png`;
   }
 
 }
