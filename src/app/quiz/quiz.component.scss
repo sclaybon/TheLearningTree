@@ -5,3 +5,10 @@
 .answer-clicked{
     --background:#3880ff;
 }
+//added these becasue text is not displaying on mobile with dark mode enabled
+ion-item{
+    color: #737373
+}
+ion-label{
+    color: #737373
+}
