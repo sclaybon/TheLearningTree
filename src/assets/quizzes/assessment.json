@@ -2,13 +2,64 @@
 	"quiz": "Greatness Assessment",
 	"quizId": "1234",
 	"questions": [{
-		"question": "What is 2+2?",
-		"answers": ["1", "4", "6", "12", "cat"]
+		"question": "When I study, I like to listen to?",
+		"answers": ["Rap", "Gospel", "I do not like to listen to music", "Country", "R&B"]
 	}, {
-		"question": "What is 2+4?",
-		"answers": ["13", "45", "6", "32", "truck"]
+		"question": "I prefer to solve word problems in the following way:",
+		"answers": ["Walking around", "Using manipulatives or objects to help me figure out the answer ", "Talking to a classmate", "Working alone", "can’t solve word problems."]
 	}, {
-		"question": "Which is an animal?",
-		"answers": ["155", "4718", "house", "road", "cat"]
+		"question": "When I am reading, I",
+		"answers": ["Sound out the words", "Look up the definitions to words while I am reading", "Have a picture in my head while I am reading", "Understand what I am reading", "Take my time to read, but I understand what I am reading"]
+	}, {
+		"question": "When I watch a television show, I usually remember the following things",
+		"answers": ["The emotions it gave me", "Specific details about the plot, music, and visuals", "The lines spoken by the actors", "How the story could have been changed"]
+	}, {
+		"question": "When I want to learn something new, I",
+		"answers": ["Ask a friend or family member", "Use  a search engine", "Find a video on the topic"]
+	}, {
+		"question": "It takes me longer to complete an assignment than it takes my classmates because.",
+		"answers": ["I have to ask the teacher several questions to understand how to complete the assignment.", "I need to see an example of the assignment", "I have to ask my friends for help to complete the assignment", "I normally finish my assignments without any problems."]
+	}, {
+		"question": "When I think about my future,",
+		"answers": ["I have a plan for the next year(s) ahead", "I believe it will be a tough road ahead", "I don’t think about my future, I prefer to go with the flow"]
+	}, {
+		"question": "When I have a break, I often",
+		"answers": ["Make tick tocs or Youtube videos", "Find a snack", "Call/text a friend ", "Write a song/poetry/prose ", "E"]
+	}, {
+		"question": "One of my hobbies is",
+		"answers": ["Singing", "Playing sports", "Playing video games", "Running/ Yoga", "i do not have any hobbies "]
+	}, {
+		"question": "When I earn money, I",
+		"answers": ["Save my money in a jar.", "Take my money to the bank and invest it.", "Spend my money as soon as I earn it.", "Save half of my money and spend the other half", "Give some money to my family members and/or friends and keep the rest."]
+	}, {
+		"question": "When I am in a competition,",
+		"answers": ["I will practice every day until I do not make mistakes", "It does not matter if I win; I just want to have fun.", "I will practice, try my best, and leave it up to chance.", "Stresses me out to compete, so I don’t enter competitions", "I do better when I perform with a group."]
+	}, {
+		"question": "When given a choice, I would rather",
+		"answers": ["Work in a group", "Work alone", "Collaborate with others, then work alone", "Start alone and finish with a group.", "It does not matter because I can work alone or in a group"]
+	}, {
+		"question": "When I see someone do something that is wrong, it",
+		"answers": ["Bothers me", "Does not bother me", "I stay out of it because it is not my business.", "I confront the person", "I tell an adult"]
+	}, {
+		"question": "When I make decisions, I ",
+		"answers": ["Think about it for at least one day.", "Ask my friends for their opinions", "Read to make informed decisions.", "Know immediately what I will do.", "Shut down and ask someone to make the decision for me."]
+	}, {
+		"question": "When I have to remember information for a test, I usually",
+		"answers": ["Think about a song, rhyme, or music that reminds me of information", "Try to visualize the words in my head", "Try to put myself in the place of the characters", "Try to experience what happened."]
+	}, {
+		"question": "When I can’t remember how to spell a word, I usually",
+		"answers": ["Tap the syllable on the table", "Try to sound out the words", "Picture the object in my mind", "Imagine someone saying the word"]
+	}, {
+		"question": "On a cold, rainy day at home, I would rather…",
+		"answers": ["Write in my journal", "Listen to music in my room", "Text/Snapchat with friends", "Sleep", "Talk with my family"]
+	}, {
+		"question": "If I could have lunch with any adult, it would be",
+		"answers": ["A President of the United States", "My parent(s) or family member", "The principal", "My favorite teacher", "The custodian"]
+	}, {
+		"question": "The biggest problem in my school is",
+		"answers": ["Old books", "Boring Teachers", "Not enough AP classes", "Mean Teachers", "We have no problems"]
+	}, {
+		"question": "During Christmas vacation, I usually",
+		"answers": ["Sleep", "Have fun", "Hangout with friends", "Read", "Nothing"]
 	}]
 }
