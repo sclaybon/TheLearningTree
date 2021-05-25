@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ModalController } from '@ionic/angular';
+import { FirebaseAuthService } from '../firebase-auth.service';
+
 
 @Component({
   selector: 'app-avatar-modal',
@@ -8,7 +10,10 @@ import { ModalController } from '@ionic/angular';
 })
 export class AvatarModalPage implements OnInit {
 
-  constructor(public modalController: ModalController) { }
+  image: string;
+  avatarSelection: string;
+
+  constructor(private authService: FirebaseAuthService, public modalController: ModalController) { }
 
   ngOnInit() {
   }
@@ -16,5 +21,16 @@ export class AvatarModalPage implements OnInit {
   closeModal() {
     this.modalController.dismiss();
   }
+
+
+  onClick(event, selection) {
+
+    this.image = `assets/avatars/${selection}.png`;
+    this.avatarSelection = this.image;
+
+    this.authService.setProfileData(this.avatarSelection);
+
+  }
+  
 
 }

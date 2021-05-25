@@ -1,3 +1,27 @@
 <ion-app>
   <ion-router-outlet></ion-router-outlet>
+  <ion-tabs *ngIf="showTabs">
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button [routerLink]="['/profile/personality-quiz']" tab="profile/personality-quiz">
+        <ion-icon name="person"></ion-icon>
+        <ion-label>Profile</ion-label>
+        <!-- <ion-badge>6</ion-badge> -->
+      </ion-tab-button>
+  
+      <ion-tab-button [routerLink]="['/profile/math-quiz']" tab="profile/math-quiz">
+        <ion-icon name="calculator"></ion-icon>
+        <ion-label>Math Quizzes</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button [routerLink]="['/profile/reading-quiz']" tab="profile/reading-quiz">
+        <ion-icon name="book"></ion-icon>
+        <ion-label>Reading Quizzes</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="about">
+        <ion-icon name="information-circle"></ion-icon>
+        <ion-label>About</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
 </ion-app>

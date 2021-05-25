@@ -1,0 +1,32 @@
+{
+	"quiz": "Quiz 1",
+	"quizId": "quiz1",
+	"questions": [{
+		"question": "Sarah bought 48 cupcakes to the party. If there are 12 students in the class. What does the quotient of 48 divided by 12 mean?",
+		"answers": ["The result will be the number of cupcakes each person is allowed to recieev", "The result is the number people in each groups ", "The result is the total number of cupcakes "]
+	}, {
+		"question": "What value makes the following equation true: 15/3+?=7",
+		"answers": ["4", "5", "2"]
+	}, {
+		"question": "What value makes this true :32 ÷ 8 = 8 * _?",
+		"answers": ["4", "3", "6"]
+    }, {
+		"question": "Write 347 in expanded base ten form ",
+		"answers": ["300+ 40+70", "3*100+4*10+7", "3.47*10^2"]
+	}, {
+		"question": "[image]",
+		"answers": ["45 mL", "50 mL", "40 mL"]
+	}, {
+		"question": "The recipe for a cake require 1 1/5 cups of flour, 1/5 cup of baking soda, and 2/5 of sugar. How many total cups of dry ingredients do we have? ",
+		"answers": ["4/5 cups", "1 4/5 cups", "2 cups"]
+	}, {
+		"question": "Which clock is a quater past 3?",
+		"answers": ["[image]", "[image]", "[image]"]
+	}, {
+		"question": "Your dad is fencing in your back yard. It is twice as wide as it is deep. If the witdth of the yard if 30 feet. How much fencing does he need to buy?",
+		"answers": ["60 feet", "90 feet", "120 feet"]
+	}, {
+		"question": "Which of the following represents 1/2?",
+		"answers": ["[image]", "[image]", "[image]"]
+	}]
+}

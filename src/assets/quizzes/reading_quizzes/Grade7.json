@@ -1,0 +1,25 @@
+{
+	"quiz": "Quiz 1",
+	"quizId": "quiz1",
+	"questions": [{
+		"passage": "Equity By SF Where does EQUITY begin? On the battlefields of the American Civil War? In a courtroom where Brown fought the Board of Education? In Mississippi where the teenage boy Till lay slain? THrough the bravery of the Freedom Riders? In the courage of the Ruby Bridges? From the perseverence of the Little Rock Nine? Was the sacrifice of Dr. King in vain?",
+		"question": "Which of the following sentences supports the main idea of the text.",
+		"answers": ["Hate is wrong.", "The fight for equity continues.", "Love is the answer.", "Prosecute the criminals."]
+	}, {
+		"passage": "Equity By SF Where does EQUITY begin? On the battlefields of the American Civil War? In a courtroom where Brown fought the Board of Education? In Mississippi where the teenage boy Till lay slain? THrough the bravery of the Freedom Riders? In the courage of the Ruby Bridges? From the perseverence of the Little Rock Nine? Was the sacrifice of Dr. King in vain?",
+		"question": "Which question best summarizes the text?",
+		"answers": ["On the battelfields of the American Civil War?", "Where does equity begin?", "In believing everything we've read in the history books?", "12", "truck"]
+	}, {
+		"passage": "Equity By SF Where does EQUITY begin? On the battlefields of the American Civil War? In a courtroom where Brown fought the Board of Education? In Mississippi where the teenage boy Till lay slain? THrough the bravery of the Freedom Riders? In the courage of the Ruby Bridges? From the perseverence of the Little Rock Nine? Was the sacrifice of Dr. King in vain?",
+		"question": "Which is NOT a detail from the text?",
+		"answers": ["We need more books in school.", "We need more accurate history books.", "Children of all ages deserve an education.", "All of the above."]
+    }, {
+		"passage": "Equity By SF Where does EQUITY begin? On the battlefields of the American Civil War? In a courtroom where Brown fought the Board of Education? In Mississippi where the teenage boy Till lay slain? THrough the bravery of the Freedom Riders? In the courage of the Ruby Bridges? From the perseverence of the Little Rock Nine? Was the sacrifice of Dr. King in vain?",
+		"question": "The word, vain , as used in the last line of the text means ___.",
+		"answers": ["Useless", "Excessive", "Outstanding", "Irreplaceable"]
+	}, {
+		"passage": "Equity By SF Where does EQUITY begin? On the battlefields of the American Civil War? In a courtroom where Brown fought the Board of Education? In Mississippi where the teenage boy Till lay slain? THrough the bravery of the Freedom Riders? In the courage of the Ruby Bridges? From the perseverence of the Little Rock Nine? Was the sacrifice of Dr. King in vain?",
+		"question": "How do the symbols represent the theme of the text?",
+		"answers": ["By demonstrating how the scales of justice are unbalanced", "By showing that people need to vote more", "By showinging how people cheat to win", "None of the above"]
+	}]
+}

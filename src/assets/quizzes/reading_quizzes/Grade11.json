@@ -1,0 +1,25 @@
+{
+	"quiz": "Quiz 1",
+	"quizId": "quiz1",
+	"questions": [{
+		"passage": "missing text",
+		"question": "Which speaker used a biblical allusion in his speech?",
+		"answers": ["Kennedy", "Reagan", "Bush", "King"]
+	}, {
+		"passage": "missing text",
+		"question": "Which president boasted of the longest period of economic growth of America's history during his tenure?",
+		"answers": ["Nixon", "Clinton", "Reagan", "Johnson"]
+	}, {
+		"passage": "missing text",
+		"question": "Why did Obama tell the story of the 106 year-old-woman?",
+		"answers": ["Because of her perseverance", "Because of the history she had witnessed", "Because she was peaceful", "Both A and B"]
+    }, {
+		"passage": "missing text",
+		"question": "What does the term, promiseland, represent, in King's 'I've Been to the Mountaintop.?'",
+		"answers": ["Freedom", "Death", "Life", "All of the Above"]
+	}, {
+		"passage": "missing text",
+		"question": "Despite their differences, what do most of the speeches offer the audience?'",
+		"answers": ["Promises", "Hope", "Help", "Redemption"]
+	}]
+}

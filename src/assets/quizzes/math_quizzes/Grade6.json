@@ -1,0 +1,35 @@
+{
+	"quiz": "Quiz 1",
+	"quizId": "quiz1",
+	"questions": [{
+		"question": "There are 35 students in the class and a students wants to buy enough gum for the whole class. If the gum comes in packs of 5, how many packs of gum do they need?",
+		"answers": ["5","7","9"]
+	}, {
+		"question": " Kira unravels a shirt to get blue thread. From each centimeter(cm) of the shirt, Kira gets 231 cm of thread. She unravels 7cm of the shirt.How much thread will she have?",
+		"answers": ["30 cm", "33 cm", "1617 cm"]
+	}, {
+		"question": "How many hundreds are in 700?",
+		"answers": ["7", "70", "700"]
+    }, {
+		"question": "Select the statement that explains the relationship between 8700 and 870.",
+		"answers": ["870 is 10 times as much as 8,700.", "8,700 is 10 times smaller than 870", "8,700 is 10 times as much as 870."]
+	}, {
+		"question": "What is the equivalent form 1/5?",
+		"answers": ["(1/2)/(2/5)", "(1/2)*(2/5)", "(2/10)*(1/2)"]
+	}, {
+		"question": "Which is larger 2/3 or 4/5?",
+		"answers": ["2/3", "4/5", "They are equivalent"]
+	}, {
+		"question": "A decorator is lining the outside of a mirror with strip lights. The perimeter of the mirror if 4 and 1/2 feet. Which length of roll should they purchase?",
+		"answers": ["36 in", "48 in", "60 in"]
+	},  {
+		"question": "[image]",
+		"answers": ["51-x=41; x=10", "x+51+41=120; x=28", "x+51+41=180; x=88"]
+	}, {
+		"question": "Two lines which never intersect are said to be:",
+		"answers": ["Perpendicular", "Parallel", "Obtuse"]
+	}, {
+		"question": "Which of the following is a right triangle?",
+		"answers": ["[image]", "[image]", "[image]"]
+	}]
+}

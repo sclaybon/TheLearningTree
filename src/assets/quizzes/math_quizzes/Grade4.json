@@ -1,0 +1,26 @@
+{
+	"quiz": "Quiz 1",
+	"quizId": "quiz1",
+	"questions": [{
+		"question": "Samuel picked 60 apples on his trip the orchard. He plans to give 10 apples to his mom for an apple pie and share 36 apple with his friends. When he arrived home he realizes 6 apples have spoiled. How many apple does Samuel have for himself?  ",
+		"answers": ["5","7","9"]
+	}, {
+		"question": "A snack pack of cookies has 3 cookies in. package. If a box has 5 packs. How many cookies are in the box?",
+		"answers": ["5","7","9"]
+	},{
+		"question": "",
+		"answers": ["5","7","9"]
+	},{
+		"question": "The best way to measure the length of the room is using, which of the following? ",
+		"answers": ["5","7","9"]
+	},{
+		"question": "John rides his bike to school every day, but sometime he takes different paths. If on Monday he ride 15, Tuesday he rides 21 miles, Thursday he ride 17, and on Friday takes the same path as on Monday. If he rider 80 miles for the whole week. Which eqaution represents the misssing value for Wednesday?",
+		"answers": ["5","7","9"]
+	},{
+		"question": "Which diagram represent what is left when you take away 2/6 from a whole?",
+		"answers": ["5","7","9"]
+	},{
+		"question": "Which is larger 5/10 or 2/4?",
+		"answers": ["5","7","9"]
+	}]
+}

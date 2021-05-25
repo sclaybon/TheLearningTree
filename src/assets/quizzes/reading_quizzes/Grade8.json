@@ -1,0 +1,25 @@
+{
+	"quiz": "Quiz 1",
+	"quizId": "quiz1",
+	"questions": [{
+		"passage": "missing text",
+		"question": "How does the speaker feel about herself/himself?",
+		"answers": ["Good", "Unique", "Different", "All of the above"]
+	}, {
+		"passage": "missing text",
+		"question": "A theme of the text is__________.",
+		"answers": ["Self-Love", "Cockiness", "Low Self-Esteem", "Depression"]
+	}, {
+		"passage": "missing text",
+		"question": "Which word does NOT describe the speaker of the text?",
+		"answers": ["Angry", "Kind", "Understanding", "Encouraging"]
+    }, {
+		"passage": "missing text",
+		"question": "Why do you think the author began the text with 'not better than you' instead of 'just as good as you?'",
+		"answers": ["To establish a good rhythm", "To begin in a positive way", "To let the audience know she wasn't a pushover", "None of the above"]
+	}, {
+		"passage": "missing text",
+		"question": "How do the visuals reinforce the meaning of the text?",
+		"answers": ["To emphasize self love and creativity", "As a substitute for the words", "Both A and B", "None of the above"]
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	"quiz": "Quiz 1",
+	"quizId": "quiz1",
+	"questions": [{
+		"question": "If Carl rides his bike for 3.5 hours at 6 miles per hour, stopping twice for a 15 minute rest. What total distance did he travel?",
+		"answers": ["21 miles", "18 miles", "15 miles"]
+	}, {
+		"question": "What is 1/3 in decimal form?",
+		"answers": [".3", "34", ".333"]
+	}, {
+		"question": "Which answer is not a way to represent the perimeter of a square? (Let s represent the side legth)",
+		"answers": ["s^4", "4s", "s+s+s+s"]
+    }, {
+		"question": "A cable company has a promotion which the first 3 month, every three month you pay 1/3 more of the total amount. If the normal price is $60 per month, much money does a person spenf in a year. ",
+		"answers": ["120", "360", "480"]
+	}, {
+		"question": "[image]",
+		"answers": ["Square", "Rectangle", "Triangle"]
+	}, {
+		"question": "[image]",
+		"answers": ["7*pi cm", "14*pi cm", "49 *pi cm"]
+	}, {
+		"question": "A competion has a rule that the average age of the group may not be for than 16. A dance team has 6 members ages: 16,17,10,13,21, and 16. Can they enter the competion",
+		"answers": ["Yes", "No", "I need more info"]
+	}, {
+		"question": "What is the freqency of pulling a red card from a standard deck and rolling a 5 on a single dice?",
+		"answers": ["1/6", "1/10", "1/5"]
+	}]
+}

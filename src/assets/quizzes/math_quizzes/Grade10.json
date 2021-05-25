@@ -1,0 +1,38 @@
+{
+	"quiz": "Quiz 1",
+	"quizId": "quiz1",
+	"questions": [{
+		"question": "Write the an algebraic expression. Let x be the unknown number. '7 less than a number?'",
+		"answers": ["7-x", "x-7", "-7-x"]
+	}, {
+		"question": "Write the an algebraic expression. Let x be the unknown number. '2 more than 5 times a number?'",
+		"answers": ["5(x+2)", "5x+2", "5*2+x"]
+	}, {
+		"question": "Let x=3 and y=2. Solve the expression '3x+y'",
+		"answers": ["11", "9", "15"]
+    }, {
+		"question": "Let x=3 and y=2.    Solve the expression  'y/2(4+x)'",
+		"answers": ["1/14", "14", "7"]
+	}, {
+		"question": "Select the correct equation.  'Nine is 4 more than the quotient of a number divided by 3'",
+		"answers": ["4=9+3x", "9=4+x/3", "3/x+4=9"]
+	}, {
+		"question": "Solve the equation. 'y-4>6'",
+		"answers": ["y<10", "y>10", "y>2"]
+	}, {
+		"question": "Solve the equation. '3(n+2)=42'",
+		"answers": ["40/3", "5", "12"]
+	}, {
+		"question": "Solve the equation. '-4x<=12'",
+		"answers": ["x>=-3", "x>-3", "x<=-3"]
+	}, {
+		"question": "Clark scored 20 points. James scored 3 less than twice Clark's score. How many points did James score?",
+		"answers": ["17", "34", "37"]
+	}, {
+		"question": "Determine the next three terms in the sequence.  '2.5,7.5, 12.5,17.5'",
+		"answers": ["19.5,25.5,31.5", "22.5,27.5,32.5", "21.5,26.5,31.5"]
+	}, {
+		"question": "[image]",
+		"answers": ["(3,2)", "(2,3)", "(3,3)"]
+	}]
+}

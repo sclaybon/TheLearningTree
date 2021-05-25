@@ -14,6 +14,8 @@ export class SignUpPage {
   signUpForm: FormGroup;
   submitError: string;
   authRedirectResult: Subscription;
+  showTabs: boolean;
+
 
   validation_messages = {
     'email': [
@@ -52,6 +54,10 @@ export class SignUpPage {
         this.submitError = result.error;
       }
     });
+
+    this.showTabs = true;
+
+
   }
 
   // Once the auth provider finished the authentication flow, and the auth redirect completes,

@@ -1,3 +1,5 @@
+<ion-content>
+
 <div *ngIf="isLoaded">
 <ion-header>
   <ion-toolbar>
@@ -9,15 +11,38 @@
 
 <div *ngIf="this.quizIsActive">
   <ion-list class="ion-text-center">
+
+    <!-- change the questions header element to be an item along with the text to read for the reading section -->
+    <!-- make it empty for the math section -->
+
     <ion-list-header>
       <ion-label>
-        {{this.quizData.questions[this.currentQuestion].question}}
+        The Learning Tree
       </ion-label>
     </ion-list-header>
 
-    <ion-item  *ngFor="let answer of this.quizData.questions[this.currentQuestion].answers" button (click)="answerSelect($event, answer)" [class]="itemColor">
-      {{answer}}
-    </ion-item>
+
+    <div class="quizHeight">
+
+      <div *ngIf="true">
+
+        <ion-item>
+          {{this.quizData.questions[this.currentQuestion].passage}}
+        </ion-item>
+
+      </div>
+     
+
+      <ion-item>
+        {{this.quizData.questions[this.currentQuestion].question}}
+      </ion-item>
+
+      <ion-item  *ngFor="let answer of this.quizData.questions[this.currentQuestion].answers" button (click)="answerSelect($event, answer)" [class]="itemColor">
+        {{answer}}
+      </ion-item>
+
+    </div>
+
   </ion-list>
 
   <ion-button color="secondary" expand="block" (click)="nextButtonClick($event.target)">Next</ion-button>
@@ -37,6 +62,8 @@
       Number Incorrect: {{this.numberWrong}}
     </ion-item>
   </ion-list>
-  <ion-button color="secondary" expand="block" [routerLink]="['/profile']" [state]="{assessmentComplete: true}">Back to Home Screen</ion-button>
+  <ion-button color="secondary" expand="block" [routerLink]="['/profile/personality-quiz']" [state]="{assessmentComplete: true}">Back to Home Screen</ion-button>
 </div>
 </div>
+
+</ion-content>

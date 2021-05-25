@@ -17,10 +17,18 @@ import { FirebaseAuthService } from './firebase-auth.service';
 
 import { AvatarModalPageModule } from './avatar-modal/avatar-modal.module';
 import { QuizComponent } from './quiz/quiz.component';
+import { ReadingQuizComponent } from './profile/reading-quiz/reading-quiz.component'
+import { MathQuizComponent } from './profile/math-quiz/math-quiz.component'
+import { PersonalityQuizComponent } from './profile/personality-quiz/personality-quiz.component'
+import { GlobalVariablesComponent } from './global-variables/global-variables.component';
 
 @NgModule({
   declarations: [AppComponent,
-    QuizComponent
+    QuizComponent,
+    ReadingQuizComponent,
+    MathQuizComponent,
+    PersonalityQuizComponent,
+    GlobalVariablesComponent
   ],
   imports: [
     BrowserModule,
@@ -36,8 +44,20 @@ import { QuizComponent } from './quiz/quiz.component';
     SplashScreen,
     FirebaseAuthService,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
-    HttpClientModule
-  ],
+    HttpClientModule,
+    GlobalVariablesComponent,
+    QuizComponent
+    ],
   bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule {
+
+constructor(){
+
+}
+
+
+
+
+
+}

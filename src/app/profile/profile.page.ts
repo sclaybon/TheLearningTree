@@ -13,10 +13,9 @@ import { QuizService } from '../quiz.service';
   providers: [QuizService]
 })
 export class ProfilePage implements OnInit {
-  user: ProfileModel;
+  user: ProfileModel; 
   quizList = [];
   assessmentComplete: boolean;
-
   constructor(
     private router: Router,
     private route: ActivatedRoute,
@@ -26,23 +25,53 @@ export class ProfilePage implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.route.data
-    .subscribe((result) => {
+
+
+    this.route.data.subscribe((result) => {
+
       this.user = result['data'];
+      
     }, (err) => {})
-    if(this.router.getCurrentNavigation().extras.state){
-      this.user.image = this.router.getCurrentNavigation().extras.state.avatar;
-    }
-    this.quizService.currentAssesmentStatus.subscribe(status => 
-      this.assessmentComplete = status
-    );
-    this.quizList = this.quizService.getAllQuizNames();
-  }
+
+
+    
+    // //set the user image in firebase for future reference
+    
+
+    // this.user.image = this.user.image;
+
+    // if(this.router.getCurrentNavigation().extras){
+    //   this.user.image = this.router.getCurrentNavigation().extras.state.avatar;
+    // }
+    
+    // this.quizService.currentAssesmentStatus.subscribe(status => 
+    //   this.assessmentComplete = status
+    // );
+    // this.quizList = this.quizService.getAllPersonalityQuizNames(); 
+   }
+
+  //  ionViewWillEnter(){
+
+  //   this.route.data.subscribe((result) => {
+
+  //     this.user = result['data'];
+
+      
+  //   }, (err) => {})
+
+
+  //  }
 
   async openModal() {
     const modal = await this.modalController.create({
     component: AvatarModalPage
     });
+
+    modal.onDidDismiss().then(data=>{
+      console.log("hi there guys");
+      this.user = this.authService.getProfileData();
+    })
+
     return await modal.present();
    }
 

@@ -1,0 +1,92 @@
+<!-- <ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="sign-in"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="profile-content">
+  <ion-row class="user-details-wrapper">
+    <ion-col size="6" class="user-image-wrapper">
+      <img class="user-image" [src]="user.image">
+    </ion-col>
+    <ion-col class="user-info-wrapper" size="12">
+      <h3>{{user.name}}</h3>
+      <p>{{user.description}}</p>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="12">
+      <h4>Mobile</h4>
+      <p>
+        {{user.phoneNumber}}
+      </p>
+    </ion-col>
+    <ion-col size="12">
+      <h4>Email</h4>
+      <p>
+        {{user.email}}
+      </p>
+    </ion-col>
+    <ion-col size="12">
+      <h4>Auth Provider</h4>
+      <p>
+        {{user.provider}}
+      </p>
+    </ion-col>
+    <ion-col size="12">
+      <ion-button expand="block" fill="outline" color="primary" (click)="signOut()">Sign out</ion-button>
+      <ion-button expand="block" fill="outline" color="primary" (click)="openModal()">Modal</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-content> -->
+
+<!-- <ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="sign-in"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content>
+
+  <div class="container">
+   
+
+    <!-- show all quizzes. Check to see which level of quiz was completed saved in some database and enable the next version.
+        the first thing is to get all of the quizzes here. Then add a greatness level, math level, and reading level in firestore
+        and finally submit the subject and level and read the subject and level on every quiz completion over 80%
+
+        1. Before the night is over, add all of the math and reading quizzess.
+        2. Add a button for math and one for reading to go to the respective pages showing the full list of the respective subject
+        3. Tomorrow add the service call to firestore to track the level of quiz and subject completed
+        4. Then call the service on page load and after each quiz completion to disable and enable the relevant quizzes
+        5. Clean up the color and make sure the avatar stuff is working cleanly.
+    
+      -->
+
+    <ion-card button *ngFor="let quiz of this.quizList; first as isFirst" [routerLink]="['/quiz']" [state]="{quizName: quiz.id}">
+      <ion-row *ngIf="isFirst || assessmentComplete">
+        <ion-col size="2" class="parent">
+            <ion-icon class="child icon-style" color="medium" name="star"></ion-icon>
+        </ion-col>
+        <ion-col>
+          <ion-card-content>
+            {{quiz.name}}: {{quiz.description}}
+          </ion-card-content>
+        </ion-col>
+      </ion-row>
+    </ion-card>    
+  
+  
+    <router-outlet></router-outlet>
+  
+  
+  
+  </div>
+  
+  <div style="height:200px"></div>
+
+</ion-content>

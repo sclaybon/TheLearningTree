@@ -1,0 +1,35 @@
+{
+	"quiz": "Quiz 1",
+	"quizId": "quiz1",
+	"questions": [{
+		"question": "Write the expression '4 more than 2 plus 3 mutiplied by 6'",
+		"answers": ["4+6*2+3", "4+6*(2+3)", "(4+2)+3*6"]
+	}, {
+		"question": "Evaluate the expression '3 multiplied by 2 plus 6 divided by 3'",
+		"answers": ["8", "10", "4"]
+	}, {
+		"question": "Write in standard form: '300 +40 +7 +3/10 + 9/100 + 2/100'",
+		"answers": ["347392", "347.392", "0.347392"]
+    }, {
+		"question": "[image]",
+		"answers": ["186", "2890", "1860"]
+	}, {
+		"question": "Subtract '5/6-2/3'",
+		"answers": ["3/3", "1/6", "1/3"]
+	}, {
+		"question": "If a recipe requires 1/3 cups of sugar, if we want to make enough for 4 servings. How much sugar do we need? ",
+		"answers": ["1 cup", "1-1/3 cup", "4 cups"]
+	}, {
+		"question": "Convert 1 yard to inches",
+		"answers": ["3 inches", "36 inches", "12 inches"]
+	}, {
+		"question": "[image]",
+		"answers": ["9 cubic units", "6 cubic units", "18 cubic units"]
+	}, {
+		"question": "[image]",
+		"answers": ["A", "B", "C"]
+	}, {
+		"question": "A shape with 2 set of parellel sides and 4 right angles",
+		"answers": ["Rectangle", "Square", "Trapaziod"]
+	}]
+}

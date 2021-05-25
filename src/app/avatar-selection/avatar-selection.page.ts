@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FirebaseAuthService } from '../firebase-auth.service';
 
 @Component({
   selector: 'app-avatar-selection',
@@ -7,15 +8,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AvatarSelectionPage implements OnInit {
   
-  avatarSelection = "";
+  avatarSelection: string;
+  image: string;
 
-  constructor() {}
+  constructor(private authService: FirebaseAuthService) {}
 
   ngOnInit() {
   }
 
   onClick(event, selection) {
-    this.avatarSelection = `assets/avatars/${selection}.png`;
+
+    this.image = `assets/avatars/${selection}.png`;
+    this.avatarSelection = this.image;
+
+    this.authService.setProfileData(this.avatarSelection);
+
   }
 
 }

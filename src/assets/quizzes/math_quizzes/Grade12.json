@@ -1,0 +1,32 @@
+{
+	"quiz": "Quiz 1",
+	"quizId": "quiz1",
+	"questions": [{
+		"question": "[image]",
+		"answers": ["Yes, because of Congruency postulate AAS", "No", "Yes, because if you reflect the triangle they are the same"]
+	}, {
+		"question": "[image]",
+		"answers": ["9", "13.5", "12"]
+	},{
+		"question": "[image]",
+		"answers": ["Sine", "Cosine", "Tangent"]
+	},{
+		"question": "Given ABC a right triangle and angle A is 45°, and we know that side A is 3 feet and C is the hypotenuse. How long is side B? ",
+		"answers": ["3 feet", "3/sqrt(2)", "6"]
+	},{
+		"question": "Given the diameter of a circle is 12 in. What is the circumference?",
+		"answers": ["12*/pi", "144*pi", "36*pi"]
+	},{
+		"question": "If a cake has a radius of 4 in. what is the smallest boxes it can fit into",
+		"answers": ["12*12", "8*8", "10*10"]
+	},{
+		"question": "Given a square with a side length of 4 units has an end coordinate of (4,2). What is another possible end point?",
+		"answers": ["(4,-2)", "(5,2)", "(2,4)"]
+	},{
+		"question": "Which is a three dimensional object",
+		"answers": ["Sphere", "Circle", "Square"]
+	},{
+		"question": "A triangular prism is made of what 2-dimensional shape(s)?",
+		"answers": ["Rhombus", "Triangles", "Triangles and rectangles"]
+	}]
+}

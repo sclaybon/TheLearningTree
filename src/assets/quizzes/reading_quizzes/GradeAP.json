@@ -1,0 +1,17 @@
+{
+	"quiz": "Quiz 1",
+	"quizId": "quiz1",
+	"questions": [{
+		"question": "What is 2+2?",
+		"answers": ["11", "4", "22", "12", "dog"]
+	}, {
+		"question": "What is 2+4?",
+		"answers": ["24", "42", "6", "12", "truck"]
+	}, {
+		"question": "Which is an animal?",
+		"answers": ["stone", "truck", "grass", "desk", "cat"]
+    }, {
+		"question": "What color is the sky?",
+		"answers": ["red", "yellow", "brown", "pink", "blue"]
+	}]
+}

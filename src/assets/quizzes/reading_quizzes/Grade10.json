@@ -1,0 +1,25 @@
+{
+	"quiz": "Quiz 1",
+	"quizId": "quiz1",
+	"questions": [{
+		"passage": "What hint  from the text best supports the main idea of the text that no African American should be denied equal civil rights and we should fight towards that reality?",
+		"question": "What is 2+2?",
+		"answers": ["", "", "", ""]
+	}, {
+		"passage": "missing text",
+		"question": "Which is NOT a theme of the I Have A Dream speech?",
+		"answers": ["equality", "freedom", "hope", "None of the above"]
+	}, {
+		"passage": "missing text",
+		"question": "What is the setting of the speech?",
+		"answers": ["Washington, D.C.", "The Lincoln Memorial", "Washington State", "Both A and B"]
+    }, {
+		"passage": "missing text",
+		"question": "In Paragraph 2, what is the meaning of the word, crippled?",
+		"answers": ["sad", "damaged", "rejected", "sensitive"]
+	}, {
+		"passage": "missing text",
+		"question": "What effect does the audiovisual element add to the speech?",
+		"answers": ["It makes it authentic", "It adds emotion", "It adds urgency", "All of the above"]
+	}]
+}

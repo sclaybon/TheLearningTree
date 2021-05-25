@@ -1,0 +1,32 @@
+{
+	"quiz": "Quiz 1",
+	"quizId": "quiz1",
+	"questions": [{
+		"question": "3*/sqrt(6)+ 2*/sqrt(9)+/sqrt(6)",
+		"answers": ["18", "4*/sqrt(6)+ 6", "3*/sqrt(6)+ 3"]
+	},{
+		"question": "Simplify. (5^(1/3))^6",
+		"answers": ["2", "5", "25"]
+	},{
+		"question": "What is the appropriate unit of measure used to describe the width of a computer monitor?",
+		"answers": ["Centimeters", "Meters", "Grams"]
+	},{
+		"question": "Observing all the scores from the first test, a teacher wants to know what the frequent test score amongst her 3 classes. To determine this she should find the:",
+		"answers": ["Median", "Mode", "Mean"]
+	},{
+		"question": "Select the equivialant eqaution: (x+3)^2-3x+2x^3",
+		"answers": ["2x^3+x^2-3x+9", "2x^3+x^2+3x+9", "2x^3+x^2+9x+9"]
+	},{
+		"question": "Find zeros: (x^3+2x^2-5x-6)",
+		"answers": ["x=0,2,4", "x=1,-3,3", "x=-3,-1,2"]
+	},{
+		"question": "[image]",
+		"answers": ["y>=-x+1", "y<=x-1", "y>=x+1", "12", "dog"]
+	},{
+		"question": "Solve this system of equations: x+y=7, x+2y=11",
+		"answers": ["x=3, y=4", "x=-2, y=3", "x=-1, y=3"]
+	},{
+		"question": "Naoya read a book cover to cover in a single session, at a rate of 55 pages per hour. After reading for 4 hours, he had 330 pages left to read. How long is the book ",
+		"answers": ["400", "500", "1000"]
+	}]
+}

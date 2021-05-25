@@ -60,6 +60,16 @@ export class FirebaseAuthService {
     );
   }
 
+  public setProfileData(url){
+
+    this.currentUser.updateProfile({
+      // photoURL: 'https://cdn.vox-cdn.com/thumbor/XjpvPKeFj1GMpPlfOeVSlnRQn_Q=/0x0:1280x670/1820x1213/filters:focal(538x233:742x437):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/69026146/my_hero_academia_season_5_izuku_midoriya_deku_anime_1258627_1280x0.0.jpeg'
+      photoURL: url
+    });
+ 
+    console.log("settign profile picture");
+  }
+
   public getProfileData() {
     const userModel = new ProfileModel();
     let providerData : any = this.currentUser.providerData[0];
@@ -74,7 +84,8 @@ export class FirebaseAuthService {
         userModel.image = providerData.photoURL + '?height=400';
         break;
       case 'password':
-        userModel.image = 'https://s3-us-west-2.amazonaws.com/ionicthemes/otros/avatar-placeholder.png';
+        //userModel.image = 'https://s3-us-west-2.amazonaws.com/ionicthemes/otros/avatar-placeholder.png';
+        userModel.image = providerData.photoURL;
         break;
       case 'twitter.com':
         userModel.image = providerData.photoURL.replace('_normal', '_400x400');

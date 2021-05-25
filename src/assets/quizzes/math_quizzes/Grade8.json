@@ -1,0 +1,29 @@
+{
+	"quiz": "Quiz 1",
+	"quizId": "quiz1",
+	"questions": [{
+		"question": "There are 2 cups of flour in a certain package of flour. If a serving size is 1/3 of the package, how much flour is in a serving?",
+		"answers": ["2/3 cup", "1/3 cup", "1 cup"]
+	}, {
+		"question": "",
+		"answers": ["78.13", "77.13", "78.23"]
+	}, {
+		"question": "Which statement below is true?",
+		"answers": ["|3|>|-3|", "|-7|>-|5|+|-3|", "-8|<|6|"]
+    }, {
+		"question": "Jeremy is playing a game, wear every time he win, his pot doubles. If he bets $5, wins 3 games in a row, write an equation that represent his winnngs?",
+		"answers": ["2^3*5=2*2*2*5", "5*2*3", "5^3=5*5*5"]
+	}, {
+		"question": "The price of bread is determined by equation b= $2- $0.20d, where b is the cost of bread and d represents the days on the shelf. If today is the 4 day, what is the cost of the bread?",
+		"answers": ["$1.20", "$1.00", "$0.80"]
+	}, {
+		"question": "Given a square with the area of 16 sqft, what is the area of a triangle of equal height and base?",
+		"answers": ["4 sqft", "8 sqft", "16 sqft"]
+	}, {
+		"question": "If the mean class size is 12 students, if is it possible for there to be a class with more than 12 students?",
+		"answers": ["Yes", "No", "I need more info"]
+	}, {
+		"question": "What is the best way to organize a list of numbers?",
+		"answers": ["Stem and leaf", "Histogram", "Bar chart"]
+	}]
+}

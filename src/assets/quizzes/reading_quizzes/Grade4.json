@@ -1,0 +1,25 @@
+{
+	"quiz": "Quiz 1",
+	"quizId": "quiz1",
+	"questions": [{
+		"passage": "missing text",
+		"question": "List 2 details from the poem.",
+		"answers": ["Oceans are blue", "Seas can be rough", "Winds are powerful", "None of the above"]
+	}, {
+		"passage": "missing text",
+		"question": "Summarize the main points of the paragraph.",
+		"answers": ["Your imagination helps you see new things.", "Some people dont have an imagination.", "All kids need an imagination.", "None of the above"]
+	}, {
+		"passage": "missing text",
+		"question": "How did the author use metaphors to enhance the poem?",
+		"answers": ["To explain feelings about the topic.  To explain the setting.   To add more detail. ", "", "", "To demonstrate author's purpose.", ""]
+    }, {
+		"passage": "missing text",
+		"question": "Use a dictionary to define the word, setting.",
+		"answers": ["Main idea", "Time/place", "Sitting", "Events"]
+	}, {
+		"passage": "missing text",
+		"question": "How does the illustration contribute to the meaning of the poem?",
+		"answers": ["It adds to the setting", "It tells the story", "It gives a visual representation of the imagination", "None of the above"]
+	}]
+}

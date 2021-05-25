@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 import { QuizComponent } from './quiz/quiz.component';
 
+
+
 const routes: Routes = [
   {
     path: 'sign-in',
